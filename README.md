@@ -16,7 +16,7 @@ A React-based application to manage and view user profiles. The project includes
 - **Mock Data**: Uses a JSON file (`profiles.json`) as mock data for simplicity.
 - **Responsive Design**: Works seamlessly on both desktop and mobile devices.
 
-# there is no Map and search intigration yet.
+**there is no Map and search intigration yet.**
 
 ---
 
