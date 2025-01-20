@@ -1,0 +1,306 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to bottom right, #edf3f6, #ebf1f7);
+}
+
+h1, h2{
+  margin: 20px;
+}
+
+/*                      Navbar Styling               */
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  background-color: #333;
+  max-width: 100vw;
+  height: 60px;
+}
+
+.nav .logo img{
+  width: 140px;
+}
+
+.nav .navbtns{
+  display: flex;
+  column-gap: 20px;
+}
+
+.nav .navbtns button{
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: .75s;
+}
+
+.nav .navbtns button:hover{
+   background-color: #333;
+   color: white;
+}
+
+/*                    Home profile styling */
+
+.profileCards{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+  margin: 0 25px;
+  list-style: none;
+}
+
+.card{
+  border: 1px solid #333;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.card img{
+  display: block;
+  width: 60%;
+  margin:  auto;
+  margin-bottom: 30px;
+}
+
+.card h3,h4,h5{
+  text-align: center;
+  margin: 12px;
+}
+
+
+/*                Profile details page styling             */
+
+
+.profDetails{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin: 0 25px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+
+
+.profDetails .profileImg img{
+   width: 60%;
+   display: block;
+   margin: auto;
+   border: 1px solid black;
+   
+}
+
+.profDetails .otherDetails{
+  margin: auto;
+  padding: 15px;
+}
+
+.otherDetails h2,p,button{
+  margin: 12px 15px 12px 0;
+}
+
+.otherDetails h2{
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.otherDetails p,button{
+  font-size: 1.3rem;
+}
+
+.otherDetails button{
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: .5s;
+  background: transparent;
+}
+
+.otherDetails button:hover{
+  background-color: #333;
+  color: white;
+}
+
+
+
+/*              Admin page Styling            */
+
+
+.admin-form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.admin-form-container input[type="text"],
+.admin-form-container input[type="number"],
+.admin-form-container input[type="email"],
+.admin-form-container input[type="file"],
+.admin-form-container button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.admin-form-container input[type="text"]:focus,
+.admin-form-container input[type="number"]:focus,
+.admin-form-container input[type="email"]:focus,
+.admin-form-container input[type="file"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.admin-form-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-form-container button:hover {
+  background-color: #0056b3;
+}
+
+.admin-form-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+
+.cardbtns{
+  display: flex;
+  gap: 10px;
+}
+
+.cardbtns button{
+  width: 50%;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.cardbtns button.delete:hover{
+  background-color: red;
+  color: white;
+}
+
+.cardbtns button.edit:hover{
+  background-color: green;
+  color: white;
+}
+
+
+li.card p{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+
+/*            Media Queries        */
+
+@media (max-width:768px) {
+
+  .nav .navbtns{
+  column-gap: 0px;
+}
+
+.otherDetails h2{
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+}
+
+.otherDetails p,button{
+  font-size: 1.1rem;
+}
+
+.otherDetails button{
+  padding: 5px 10px;
+}
+
+.admin-form-container {
+  max-width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  
+}
+
+.admin-form-container input[type="text"],
+.admin-form-container input[type="number"],
+.admin-form-container input[type="email"],
+.admin-form-container input[type="file"],
+.admin-form-container button {
+  width: 95%;
+  margin: 5px;
+  font-size: 14px;
+}
+.profileCards{
+  gap: 20px;
+}
+}
+
+
+@media (max-width:500px) {
+
+  .nav .navbtns{
+  column-gap: 0px;
+}
+
+.nav .navbtns button{
+  font-size: 1rem;
+}
+
+.nav .logo img{
+  width: 100px;
+}
+h1,h2{
+  text-align: center;
+}
+
+}
+
+@media (max-width:375px) {
+  .nav{
+    margin: 0;
+   padding: 8px 5px;
+  }
+
+  .nav .navbtns button{
+    font-size: .8rem;
+  }
+  
+  .nav .logo img{
+    width: 80px;
+  }
+}

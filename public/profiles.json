@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Sanket Shinde",
+    "image": "/Images/dummy1.png",
+    "description": "Software Engineer",
+    "address": "Kothrud, Pune",
+    "ph_no" : 1234,
+    "email" : "sanket@email.com"
+  },
+  {
+    "id": 2,
+    "name": "Shubham Jadhav",
+    "image": "/Images/dummy3.png",
+    "description": "Graphic Designer",
+    "address": "Shivajinagar, Pune",
+    "ph_no" : 1235,
+    "email" : "shubham@email.com"
+  },
+  {
+    "id": 3,
+    "name": "Rohan Jagtap",
+    "image": "/Images/dummy1.png",
+    "description": "Data Scientist",
+    "address": "Hinjewadi, Pune",
+    "ph_no" : 1236,
+    "email" : "rohan@email.com"
+  },
+  {
+    "id": 4,
+    "name": "Aniket Mali",
+    "image": "/Images/dummy3.png",
+    "description": "Marketing Specialist",
+    "address": "Viman Nagar, Pune",
+    "ph_no" : 1237,
+    "email" : "aniket@email.com"
+  },
+  {
+    "id": 5,
+    "name": "Prathmesh Raut",
+    "image": "/Images/dummy3.png",
+    "description": "Product Manager",
+    "address": "Baner, Pune",
+    "ph_no" : 1238,
+    "email" : "prathmesh@email.com"
+  },
+  {
+    "id": 6,
+    "name": "Adarsh Mahangade",
+    "image": "/Images/dummy1.png",
+    "description": "UX Designer",
+    "address": "Thane, Mumbai",
+    "ph_no" : 1239,
+    "email" : "adarsh@email.com"
+  },
+  {
+    "id": 7,
+    "name": "Akash Shinde",
+    "image": "/Images/dummy3.png",
+    "description": "Frontend Developer",
+    "address": "Kasarwadi, Pune",
+    "ph_no" : 1240,
+    "email" : "akash@email.com"
+  },
+  {
+    "id": 8,
+    "name": "Viraj Kadam",
+    "image": "/Images/dummy1.png",
+    "description": "Backend Developer",
+    "address": "Hadapsar, Pune",
+    "ph_no" : 1241,
+    "email" : "viraj@email.com"
+  },
+  {
+    "id": 9,
+    "name": "Navnath More",
+    "image": "/Images/dummy1.png",
+    "description": "Mobile App Developer",
+    "address": "Magarpatta, Pune",
+    "ph_no" : 1242,
+    "email" : "navnath@email.com"
+  },
+  {
+    "id": 10,
+    "name": "Rohit Shinde",
+    "image": "/Images/dummy3.png",
+    "description": "AI Researcher",
+    "address": "Vashi, Mumbai",
+    "ph_no" : 1243,
+    "email" : "rohit@email.com"
+  }
+]
