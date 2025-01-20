@@ -23,7 +23,7 @@ A React-based application to manage and view user profiles. The project includes
 Follow these steps to set up the project locally:
 
 1. **Clone the Repository**:
-   git clone https://github.com/your-username/profile-manager.git
+   git clone https://github.com/AkashShinde-10/ProfileMapper.git
    cd profile-manager
 
 2.  **Install dependencies**
